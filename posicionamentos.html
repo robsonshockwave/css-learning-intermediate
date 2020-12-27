@@ -15,6 +15,7 @@
             margin: 10px auto;
             padding: 10px;
             color: black;
+            position: relative;
         }
 
         h1 {
@@ -25,8 +26,27 @@
             border: 1px solid red;
             position: relative;
             /* top, right, bottom, left */
-            top: 20px;
+            top: -20px;
+            right: 80px;
+        }
+
+        .absolute {
+            border: 1px solid red;
+            background: #f2f2f2;
+            position: absolute;
+            /* top, right, bottom, left */
+            top: 80px;
             left: 80px;
+        }
+
+        .fixed {
+            border: 1px solid red;
+            background: #f2f2f2;
+            position: fixed;
+            margin: 0px;
+            /* top, right, bottom, left */
+            bottom: 0px;
+            right: 0px;
         }
 
         p {
@@ -41,9 +61,15 @@
 
         <p>P1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam iure consectetur nam tempore rem corporis dolore distinctio minus est eaque, fuga ex nulla unde nesciunt inventore animi numquam natus hic.</p>
 
-        <p class="relative">P2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis unde voluptatem maiores repellendus culpa magnam dolores id mollitia numquam, eum commodi accusamus quibusdam officiis totam reiciendis et soluta dicta possimus?</p>
+        <p class="fixed">P2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis unde voluptatem maiores repellendus culpa magnam dolores id mollitia numquam, eum commodi accusamus quibusdam officiis totam reiciendis et soluta dicta possimus?</p>
 
         <p>P3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, necessitatibus ea illum deserunt optio ab ipsum atque quia voluptatem voluptate praesentium architecto neque et molestias aut error numquam non minus!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione laboriosam assumenda eius culpa nobis tempore, tenetur architecto repellendus nam omnis perferendis reiciendis consequatur optio accusantium odit saepe, laudantium fugit debitis.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repellat corporis, eaque excepturi at ea. Omnis accusamus eius et blanditiis sed, repudiandae ratione accusantium incidunt ipsam nihil nobis, sequi amet.</p>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe tenetur consequuntur perferendis, tempore exercitationem cum enim, consequatur, corporis ad aliquid non doloribus maxime quo quia nam molestias quae voluptatum autem?</p>
     </div>
 </body>
 </html>
