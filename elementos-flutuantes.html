@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos flutuantes</title>
+    <style>
+        .conteudo {
+            background: blue;
+            border: 1px solid gray;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            float: left;
+        }
+
+        /*
+        .conteudo1 {
+            background: yellow;
+            border: 1px solid gray;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            float: left;
+        }
+        */
+
+        .conteudo-zero {
+            background: red;
+            border: 1px solid gray;
+            width: 100px;
+            height: 100px;
+        }
+
+        .conteudo2 {
+            background: yellow;
+            border: 1px solid gray;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+        }
+
+        .clear {
+            /* left, right, none, both */
+            clear: both;
+        }
+
+        #principal {
+            border: 5px solid red;
+            background: green;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="principal">
+        <div class="conteudo-zero">
+            Conteúdo 0
+        </div>
+
+        <div class="conteudo">
+            Conteúdo 1
+        </div>
+        <div class="conteudo">
+            Conteúdo 2
+        </div>
+        <div class="conteudo">
+            Conteúdo 3
+        </div>
+        <div class="clear"></div>
+    
+        <p class="clear">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam nesciunt, nam magni quasi saepe ratione in quia maiores sunt dolorum odit laboriosam molestias! Fuga at quia, sit neque sunt doloremque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi officia, totam veritatis consequuntur cum facere libero, dolorem repellat, obcaecati quia quaerat alias! Saepe, inventore cupiditate provident deserunt perferendis blanditiis est. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea et iste numquam tempora, beatae quis earum error amet dolorem doloribus saepe, dignissimos eveniet corrupti vel accusantium reiciendis deleniti. Incidunt, saepe? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, esse ex? Deleniti libero atque delectus sapiente pariatur sunt ipsum nisi quod facilis iusto, officia tenetur iure corrupti earum ex quam.
+        </p>
+    </div>
+</body>
+</html>
